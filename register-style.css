@@ -1,0 +1,160 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.dot-color-orange {
+    color: #ff9100;
+    font-size: 4.0vh;
+}
+
+li {
+    list-style: none;
+}
+
+nav * {
+    font-size: 4vh;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+.dot-color-orange {
+    color: #ff9100;
+    font-size: 4.0vh;
+}
+
+a:hover {
+    color:  #02b8dd;
+    transition: 150ms ease-in-out;
+}
+
+nav a {
+    font-size: 3vmin;
+}
+
+nav a:hover {
+    color: #ff9100;
+    transition: 150ms ease-in-out;
+}
+
+nav {
+    margin: 1vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: whitesmoke;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 2vh;
+}
+
+header {
+    background-color: #1a2021;
+    padding: 3vh;
+    margin-bottom: 3vh;
+}
+
+main #main-box-image {
+    position: relative;
+    text-align: center;
+    margin: 5vh 0 5vh 0;
+}
+
+#container-form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 6vh;
+}
+
+#container-form a:not(:hover) {
+    color: #1a2021;
+    transition: 0.25s ease-in-out;
+}
+
+#container-form a:hover {
+    color: #ff9100;
+    transition: 0.25s ease-in-out;
+}
+
+#login-div {
+    display: flex;
+    width: 80vh;
+    text-align: center;
+    justify-content: center;
+    font-size: 5vh;
+}
+
+input {
+    border: 0;
+    border-bottom: 1px solid grey;
+}
+
+#container-form img {
+    max-width: 80vh;
+    border-radius: 10px;
+}
+
+fieldset{
+    border: none;
+    font-size: 3vh;
+    font-weight: bold;
+    margin-left: 10vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+}
+
+fieldset > div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+fieldset input {
+    width: 30vh;
+    height: 4vh;
+    font-size: 2vh;
+    border-width: 3px;
+}
+
+fieldset #register {
+    border-radius: 10px;
+    width: 30vh;
+    height: 30px;
+    border-bottom: none;
+    background-color: #ff9100;
+    font-weight: bold;
+    text-align: center;
+    width: 30vh;
+    height: 10vh;
+    cursor: pointer;
+}
+
+
+#container-field {
+    margin: 6vh;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1a2021;
+    color: whitesmoke;
+    font-size: small;
+    padding: 30px 0 4em 0;
+}
